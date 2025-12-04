@@ -35,4 +35,10 @@ export const Nav: NavLinks[] = [
     defaultIcon: galleryIcon,
     hoverIcon: galleryHoverIcon,
   },
+  {
+    href: "blogs",
+    label: "blogs",
+    defaultIcon: galleryIcon,
+    hoverIcon: galleryHoverIcon,
+  },
 ];

@@ -18,9 +18,9 @@ const query = `*[_type == "post"]{
 
 export default async function BlogList() {
   const posts = await client.fetch(query);
-
+  console.log(posts);
   return (
-    <div className="flex flex-col container gap-5 min-h-[90vh] bg-[#eaffe3]  h-">
+    <div className="flex flex-col container gap-5 min-h-[90vh] bg-[#eaffe3]  ">
       <div className="flex my-1 px-3">
         <h1 className="text-4xl font-bold ">Latest Blog Posts</h1>
       </div>

@@ -47,7 +47,7 @@ export default async function BlogPost({
       )}
 
       <div className="text-gray-600 mb-6">
-        <span>By {post.author?.name}</span>
+        <span>By {post.author.name}</span>
       </div>
 
       <div className="prose">
