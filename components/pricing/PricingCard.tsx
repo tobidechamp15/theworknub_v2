@@ -73,7 +73,7 @@ const pricingOptions = [
     ],
     pricing: [
       { label: "1st Hour", price: "₦85,000" },
-      { label: "2nd Hour", price: "₦60,000" },
+      { label: "Subsequent Hour", price: "₦60,000" },
     ],
   },
 ];
