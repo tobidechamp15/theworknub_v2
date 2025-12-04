@@ -18,7 +18,7 @@ const query = `*[_type == "post"]{
 
 export default async function BlogList() {
   const posts = await client.fetch(query);
-  console.log(posts);
+  // console.log(posts);
 
   return (
     <div className="p-6 my-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
